@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestTask</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header">
+        <div id="header-container" class="container">
+            <div class="logo">
+                <img class="logo-img" src="img/logo.png" alt="Doreto" />
+                <p class="logo-text">Doreto</p>
+            </div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <nav class="menu-nav">
+                    <a href="/">Home</a>
+                    <a href="/">Contacts</a>
+                </nav>
+                <a class="menu-phone" href="tel:+18881234567">+1 888 123 45 67</a>
+            </div>
+        </div>
+    </header>
+    <main class="wrap">
+        <div class="container">
+            
+            <div class="title">
+                <h6 class="h6">Secondary title</h6>
+                <h2 class="h2">Articles</h2>
+                <h5 class="h5">This is a paragraph. To edit this paragraph, highlight the text and replace it with your own content. Either type the text directly or paste the copied text here.</h5>
+            </div>
+            <div class="gallery">
+                <div class="gallery-container">
+                    <div class="gallery-container-image">
+                        <img src="img/post1.png" alt="Post Name" />
+                    </div>
+                    <div class="gallery-container-content">
+                        <h6 class="h6">Jonh Doe</h6>
+                        <h4 class="h4">Post Name</h4>
+                        <p class="gallery-container-content-text">This is a paragraph. To edit this paragraph, highlight the text and replace it.</p>
+                        <a class="gallery-container-content-link" href="/">Learn more</a>
+                    </div>
+                </div>
+                <div class="gallery-container">
+                    <div class="gallery-container-image">
+                        <img src="img/post2.png" alt="Post Name" />
+                    </div>
+                    <div class="gallery-container-content">
+                        <h6 class="h6">Jonh Doe</h6>
+                        <h4 class="h4">Post Name</h4>
+                        <p class="gallery-container-content-text">This is a paragraph. To edit this paragraph, highlight the text and replace it.</p>
+                        <a class="gallery-container-content-link" href="/">Learn more</a>
+                    </div>
+                </div>
+                <div class="gallery-container">
+                    <div class="gallery-container-image">
+                        <img src="img/post3.png" alt="Post Name" />
+                    </div>
+                    <div class="gallery-container-content">
+                        <h6 class="h6">Jonh Doe</h6>
+                        <h4 class="h4">Post Name</h4>
+                        <p class="gallery-container-content-text">This is a paragraph. To edit this paragraph, highlight the text and replace it.</p>
+                        <a class="gallery-container-content-link" href="/">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn_container">
+                <a href="/" class="btn">Contact us</a>
+                <a href="/" class="btn btn_second">Learn more</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img class="logo-img" src="img/logo.png" alt="Doreto" />
+                <p class="logo-text">Doreto</p>
+            </div>
+            <p class="footer-desc">This is a paragraph. To edit this paragraph, highlight the text and replace it with your own fresh content. Moving this text widget is no problem.</p>
+            <div class="footer-social">
+                <img class="footer-social-icon" src="img/social/facebook.png" alt="facebook">
+                <img class="footer-social-icon" src="img/social/instagram.png" alt="instagram">
+                <img class="footer-social-icon" src="img/social/linkedin.png" alt="linkedin">
+                <img class="footer-social-icon" src="img/social/Twitter.png" alt="Twitter">
+                <img class="footer-social-icon" src="img/social/google.png" alt="google">
+            </div>
+            <p class="footer-inform">Paste here copyright information</p>
+        </div>
+    </footer>
+
+    <!-- Block settings -->
+    <div class="box">
+        <img src="img/setting.png" alt="setting" class="box-icon">
+        <div class="box-setting">
+            <img src="img/cancel.svg" alt="setting" class="box-icon">
+                <h4 class="h4">Select a color theme</h4>
+                <div class="box-setting-theme">
+                        <div class="box-setting-switch" id="white">white</div>
+                        <div class="box-setting-switch" id="grey">grey</div>
+                        <div class="box-setting-switch" id="dark">dark</div>
+                    </div>
+                
+                <h4 class="h4">Select which elements should be displayed</h4>  
+                        <div class="box-setting-display">
+                            <input id="hideLogo" class=" hideLogo" type="checkbox">
+                            <label for="hideLogo">Logo</label>
+                        </div>
+                        <div class="box-setting-display">
+                            <input id="hideSocial" class=" hideSocial" type="checkbox">
+                            <label for="hideSocial">Social media icons</label>
+                        </div>
+                        <div class="box-setting-display">
+                            <input id="hideTitle" class=" hideTitle" type="checkbox">
+                            <label for="hideTitle">Section header (“Articles”)</label>
+                        </div>
+                        <div class="box-setting-display">
+                            <input id="hidePostTitle" class=" hidePostTitle" type="checkbox">
+                            <label for="hidePostTitle">Post name</label>
+                        </div>
+        </div>     
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>    
+    <script src="scripts.js"></script>
+
+</body>
+</html>
