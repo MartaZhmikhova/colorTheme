@@ -23,8 +23,8 @@ $(document).ready(function(){
         $(".logo").toggleClass("hide");
         $("#header-container").toggleClass("flex-end");
     });
-    $(".hideSocial").click(function(){
-        $(".footer-social").toggleClass("hide");
+    $(".hideNetwork").click(function(){
+        $(".footer-network").toggleClass("hide");
     });
     $(".hideTitle").click(function(){
         $(".title .h2").toggleClass("hide");
